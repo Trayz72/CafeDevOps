@@ -7,11 +7,7 @@ pipeline {
     }
 
     stages {
-        stage('Clone Repo') {
-            steps {
-                git 'https://github.com/Trayz72/Cafe.git'
-            }
-        }
+
 
         stage('Build Docker Image') {
             steps {
